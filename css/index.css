@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica;
+}
+
+header{
+    background-color: #4c5b66;
+    padding: 20px 111px 0px;
+    margin: 0;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .text-title{
+    font-family: 'Pacifico';
+    color: #fff;
+    text-shadow: 2px 3px 2px #000;
+    font-size: 20px;
+}
+
+header .container .text-nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+header .container .text-nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+
+header .container .text-nav li{
+    padding: 0px 30px;
+}
+
+header .container .text-nav li:last-child{
+    padding: 0px 0px;
+}
+
+header .container .text-nav li:first-child{
+    background-color: #3c474e;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+
+header .container .text-nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .content-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .text-content{
+    width: 560px;
+}
+
+header .text-content h3{
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+header .text-content p{
+    color: #bbbcbe;
+}
+
+header .text-content .link-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+header .text-content .button-content{
+    background-color: #3f97d2;
+    color: #fff;
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #fff3;
+    margin-right: 10px;
+}
+
+header .text-content .link-content1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+header .text-content .link-content1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.text-content .link-content1 .clik-content{
+   margin-left: 10px;
+}
+
+
+
